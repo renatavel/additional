@@ -6,7 +6,7 @@ public class Main {
         //int tab[]={1,1};
         int max=0;
         for(int i=0;i<tab.length;i++){
-            for(int j=i;j<tab.length;j++){
+            for(int j=i+1;j<tab.length;j++){
                 System.out.println(i+" "+j);
                 if(tab[i]==-tab[j]){
                     if(max<Math.abs(tab[j])){
